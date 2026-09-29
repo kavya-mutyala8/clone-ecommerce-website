@@ -15,9 +15,9 @@
   </head>
   <body>
     <header>
-      <div class="navbar">
+      <nav class="navbar">
         <div class="nav-logo border">
-          <div class="logo"></div>
+          <div class="logo" role="img" aria-label="Amazon logo"></div>
         </div>
 
         <div class="nav-address border">
@@ -29,10 +29,15 @@
         </div>
 
         <div class="nav-search">
-          <select class="search-select">
+          <select class="search-select" aria-label="Search category">
             <option>All</option>
           </select>
-          <input placeholder="search Amazon" class="search-input" />
+          <input
+            type="text"
+            placeholder="Search Amazon"
+            class="search-input"
+            aria-label="Search products"
+          />
           <div class="search-icon">
             <i class="fa-solid fa-magnifying-glass"></i>
           </div>
@@ -52,7 +57,7 @@
           <i class="fa-solid fa-cart-shopping"></i>
           Cart
         </div>
-      </div>
+      </nav>
       <div class="panel">
         <div class="panel-all">
           <i class="fa-solid fa-bars"></i>
@@ -68,103 +73,119 @@
         <div class="panel-deals">Shop deals in Electronics</div>
       </div>
     </header>
+    <main>
+      <div class="hero_section">
+        <div class="hero-msg">
+          <p>
+            You are on amazon.com. You can also shop on Amazon India for
+            millions of products with fast local delivery.
+            <a href="https://www.amazon.in/"> Click here to go to amazon.in</a>
+          </p>
+        </div>
+      </div>
 
-    <div class="hero_section">
-      <div class="hero-msg">
-        <p>
-          You are on amazon.com. You can also shop on Amazon India for millions
-          of products with fast local delivery.
-          <a href="https://www.amazon.in/"> Click here to go to amazon.in</a>
-        </p>
+      <div class="shop-section">
+        <div class="box">
+          <div class="box-content">
+            <h2>Fashion trends you like</h2>
+            <div
+              class="box_ima"
+              role="img"
+              aria-label="Fashion trends"
+              style="background-image: url(&quot;img1.jpg&quot;)"
+            ></div>
+            <p>Shop</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-content">
+            <h2>Home Decor</h2>
+            <div
+              class="box_ima"
+              role="img"
+              aria-label="Home decor"
+              style="background-image: url(&quot;img2.jpg&quot;)"
+            ></div>
+            <p>Shop</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-content">
+            <h2>Modern Spaces & Styles</h2>
+            <div
+              class="box_ima"
+              role="img"
+              aria-label="Modern spaces and styles"
+              style="background-image: url(&quot;img3.jpg&quot;)"
+            ></div>
+            <p>Shop</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-content">
+            <h2>Smart Home</h2>
+            <div
+              class="box_ima"
+              role="img"
+              aria-label="Smart home devices"
+              style="background-image: url(&quot;img4.jpg&quot;)"
+            ></div>
+            <p>Shop</p>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <div class="shop-section">
-      <div class="box">
-        <div class="box-content">
-          <h2>Fashion trends you like</h2>
-          <div
-            class="box_ima"
-            style="background-image: url(&quot;img1.jpg&quot;)"
-          ></div>
-          <p>Shop</p>
+      <div class="shop-section">
+        <div class="box">
+          <div class="box-content">
+            <h2>bedding and bath</h2>
+            <div
+              class="box_ima"
+              role="img"
+              aria-label="Bedding and bath"
+              style="background-image: url(&quot;img5.jpg&quot;)"
+            ></div>
+            <p>Shop</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-content">
+            <h2>kitchen and dining</h2>
+            <div
+              class="box_ima"
+              role="img"
+              aria-label="Kitchen and dining"
+              style="background-image: url(&quot;img6.jpg&quot;)"
+            ></div>
+            <p>Shop</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-content">
+            <h2>PC computers</h2>
+            <div
+              class="box_ima"
+              role="img"
+              aria-label="PC computers"
+              style="background-image: url(&quot;img7.jpg&quot;)"
+            ></div>
+            <p>Shop</p>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-content">
+            <h2>Beauty picks</h2>
+            <div
+              class="box_ima"
+              role="img"
+              aria-label="Beauty picks"
+              style="background-image: url(&quot;img8.avif&quot;)"
+            ></div>
+            <p>Shop</p>
+          </div>
         </div>
       </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Home Decor</h2>
-          <div
-            class="box_ima"
-            style="background-image: url(&quot;img2.jpg&quot;)"
-          ></div>
-          <p>Shop</p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Modern Spaces & Styles</h2>
-          <div
-            class="box_ima"
-            style="background-image: url(&quot;img3.jpg&quot;)"
-          ></div>
-          <p>Shop</p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Smart Home</h2>
-          <div
-            class="box_ima"
-            style="background-image: url(&quot;img4.jpg&quot;)"
-          ></div>
-          <p>Shop</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="shop-section">
-      <div class="box">
-        <div class="box-content">
-          <h2>bedding and bath</h2>
-          <div
-            class="box_ima"
-            style="background-image: url(&quot;img5.jpg&quot;)"
-          ></div>
-          <p>Shop</p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>kitchen and dining</h2>
-          <div
-            class="box_ima"
-            style="background-image: url(&quot;img6.jpg&quot;)"
-          ></div>
-          <p>Shop</p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>PC computers</h2>
-          <div
-            class="box_ima"
-            style="background-image: url(&quot;img7.jpg&quot;)"
-          ></div>
-          <p>Shop</p>
-        </div>
-      </div>
-      <div class="box">
-        <div class="box-content">
-          <h2>Beauty picks</h2>
-          <div
-            class="box_ima"
-            style="background-image: url(&quot;img8.avif&quot;)"
-          ></div>
-          <p>Shop</p>
-        </div>
-      </div>
-    </div>
-
+    </main>
     <footer>
       <div class="foot-panel1">Back to top</div>
 
@@ -200,7 +221,7 @@
       </div>
 
       <div class="foot-panel3">
-        <div class="foot-logo"></div>
+        <div class="foot-logo" role="img" aria-label="Amazon logo"></div>
       </div>
 
       <div class="foot-panel4">
